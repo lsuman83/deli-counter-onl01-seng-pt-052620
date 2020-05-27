@@ -8,12 +8,11 @@ def line (other_deli)
   if (other_deli.size == 0)
     puts "The line is currently empty."
   else
-    puts "The line is currently: "
     other_deli.each do |person|
       katz_deli[index] = "#{index + 1}. #{person}"
       index += 1
     end
-    puts "#{katz_deli}"
+    puts "The line is currently: #{katz_deli.join()}"
   end
   
 end
