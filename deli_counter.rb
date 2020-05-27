@@ -26,4 +26,8 @@ end
 
 def now_serving (katz_deli)
   
+  serve = katz_deli.pop
+  puts "Currently serving #{serve}."
+  
+  
 end
