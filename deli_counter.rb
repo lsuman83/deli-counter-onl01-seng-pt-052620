@@ -12,7 +12,7 @@ def line (other_deli)
       katz_deli[index] = "#{index + 1}. #{person}"
       index += 1
     end
-    puts "The line is currently: #{katz_deli.join()}"
+    puts "The line is currently: #{katz_deli.join(" ")}"
   end
   
 end
